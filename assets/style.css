@@ -237,3 +237,40 @@ span{
     color: #469165;
     border: 2px solid #469165;
 }
+footer{
+    background-color: #001931;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0 60px;
+}
+.social-links p{
+    color: #fff;
+    font-size: 18px;
+    font-family: 400;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.social-icons li{
+    list-style-type: none;
+}
+.social-icons li a{
+    background-color: #fff;
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #001931;
+}
+.footer-bottom{
+    border-top: 1px solid #2E4256;
+    text-align: center;
+    padding: 30px 0;
+}
