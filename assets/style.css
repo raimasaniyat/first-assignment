@@ -12,6 +12,29 @@ p{
     font-weight: 400;
     color: #627382;
 }
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #1B3147;
+}
+h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+}
+h4{
+     font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+}
+h5{
+     font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
 .container{
     max-width: 1140px;
     margin: 0 auto;
@@ -56,4 +79,20 @@ button{
     background-color: transparent;
     color: #30b868;
     border: 2px solid #30b868;
+}
+
+span{
+    color: #30b868;
+    display: block;
+}
+.banner-btn-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.banner-btn-parent button:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
 }
