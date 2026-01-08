@@ -178,3 +178,37 @@ span{
     align-items: center;
     margin: 0 auto;
 }
+.solution-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.solution-thumb img{
+    height: 600px;
+    max-width: 600px;
+}
+.solution-content h6{
+    color: #30b868;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.solution-content h2{
+    margin: 10px 0 16px;
+}
+.solution-content p{
+    margin: 0 0 30px;
+}
+.solution-list{
+    list-style-type: none;
+    text-decoration: none;
+}
+.shomadhan{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
