@@ -3,6 +3,13 @@
     padding: 0;
     text-decoration: none;
 }
+.banner{
+    background: url(../assets/images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 115px 120px 180px;
+}
 .open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -80,10 +87,41 @@ button{
     color: #30b868;
     border: 2px solid #30b868;
 }
-
+.banner-parent{
+    max-width: 770px;
+    margin: 0 auto;
+}
+.banner-access{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 12px;
+    background-color: #fff;
+    border-radius: 25px 25px;
+    max-width: 230px;
+    margin: 0 auto;
+}
+.banner-content{
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0 32px;
+}
+.banner-content h1{
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
 span{
     color: #30b868;
     display: block;
+}
+.banner-content p{
+    color: #E4E6E7;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    max-width: 700px;
+    margin: 16px auto 0;
 }
 .banner-btn-parent{
     display: flex;
